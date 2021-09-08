@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .chu-xanh {
+            color: blue;
+            float: right;
+        }
+
+        .cam {
+            color: orange;
+        }
+
+        #table-trong {
+            background: white;
+            border: 10px solid aqua;
+        }
+    </style>
+</head>
+<body>
+<table id="table-trong">
+    <tr>
+        <td colspan="3">
+            <h2 style="color: white; background: orange; text-align: center">Sở thích</h2>
+        </td>
+    </tr>
+    <tr>
+        <td class="chu-xanh">Họ và tên</td>
+        <td><input type="text" style="width: 100px"></td>
+    </tr>
+    <tr>
+        <td class="chu-xanh">Email</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="chu-xanh">Password</td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td class="chu-xanh">Giới tính</td>
+        <td>
+            <input name="gt" type="radio">Nam
+            <input name="gt" type="radio">Nữ
+        </td>
+    </tr>
+    <tr>
+        <td class="chu-xanh">Quê quán</td>
+        <td>
+            <select>
+                <option>Hà Nội</option>
+                <option>Phú thọ</option>
+                <option>Các thứ</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="chu-xanh">
+            Sở thích
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td class="cam"><input type="checkbox">Thể thao</td>
+                    <td class="cam"><input type="checkbox">Âm nhạc</td>
+                    <td class="cam"><input type="checkbox">Đọc sách</td>
+                </tr>
+                <tr>
+                    <td class="cam"><input type="checkbox">Lướt web</td>
+                    <td class="cam"><input type="checkbox">Chơi game</td>
+                    <td class="cam"><input type="checkbox">Du lịch</td>
+                </tr>
+                <tr>
+                    <td class="cam"><input type="checkbox">Chụp ảnh</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button>Gửi</button>
+            <button>Nhập lại</button>
+            <input type="reset" value="Re">
+        </td>
+    </tr>
+</table>
+</body>
+</html>
